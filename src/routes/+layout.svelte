@@ -1,6 +1,16 @@
 <script lang="ts">
 	import '../app.css';
-	let { children } = $props();
+	import { ModeWatcher, setMode } from 'mode-watcher';
+	import Sidebar from '$lib/components/sidebar.svelte';
+	import { onMount } from 'svelte';
+	onMount(() => {
+		setMode('dark');
+	});
+	let { children, data } = $props();
 </script>
 
-{@render children()}
+<ModeWatcher />
+<div class="flex flex-row">
+	<Sidebar {data} />
+	{@render children()}
+</div>
