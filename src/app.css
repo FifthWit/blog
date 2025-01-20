@@ -1,3 +1,128 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+	:root {
+		--text-50: 295 46% 95%;
+		--text-100: 295 49% 90%;
+		--text-200: 295 47% 80%;
+		--text-300: 295 48% 70%;
+		--text-400: 295 48% 60%;
+		--text-500: 295 48% 50%;
+		--text-600: 295 48% 40%;
+		--text-700: 295 48% 30%;
+		--text-800: 295 47% 20%;
+		--text-900: 295 49% 10%;
+		--text-950: 295 46% 5%;
+
+		--background-50: 296 62% 95%;
+		--background-100: 294 61% 90%;
+		--background-200: 295 61% 80%;
+		--background-300: 295 61% 70%;
+		--background-400: 295 61% 60%;
+		--background-500: 295 61% 50%;
+		--background-600: 295 61% 40%;
+		--background-700: 295 61% 30%;
+		--background-800: 295 61% 20%;
+		--background-900: 294 61% 10%;
+		--background-950: 293 62% 5%;
+
+		--primary-50: 297 69% 95%;
+		--primary-100: 295 69% 90%;
+		--primary-200: 295 71% 80%;
+		--primary-300: 295 70% 70%;
+		--primary-400: 295 70% 60%;
+		--primary-500: 295 70% 50%;
+		--primary-600: 295 70% 40%;
+		--primary-700: 295 70% 30%;
+		--primary-800: 295 71% 20%;
+		--primary-900: 295 69% 10%;
+		--primary-950: 293 69% 5%;
+
+		--secondary-50: 294 84% 95%;
+		--secondary-100: 296 80% 90%;
+		--secondary-200: 295 82% 80%;
+		--secondary-300: 295 82% 70%;
+		--secondary-400: 295 82% 60%;
+		--secondary-500: 295 82% 50%;
+		--secondary-600: 295 82% 40%;
+		--secondary-700: 295 82% 30%;
+		--secondary-800: 295 82% 20%;
+		--secondary-900: 296 80% 10%;
+		--secondary-950: 294 84% 5%;
+
+		--accent-50: 146 54% 95%;
+		--accent-100: 145 57% 90%;
+		--accent-200: 144 57% 80%;
+		--accent-300: 144 56% 70%;
+		--accent-400: 144 56% 60%;
+		--accent-500: 144 56% 50%;
+		--accent-600: 144 56% 40%;
+		--accent-700: 144 56% 30%;
+		--accent-800: 144 57% 20%;
+		--accent-900: 145 57% 10%;
+		--accent-950: 141 54% 5%;
+	}
+	.dark {
+		--text-50: 295 46% 5%;
+		--text-100: 295 49% 10%;
+		--text-200: 295 47% 20%;
+		--text-300: 295 48% 30%;
+		--text-400: 295 48% 40%;
+		--text-500: 295 48% 50%;
+		--text-600: 295 48% 60%;
+		--text-700: 295 48% 70%;
+		--text-800: 295 47% 80%;
+		--text-900: 295 49% 90%;
+		--text-950: 295 46% 95%;
+
+		--background-50: 293 62% 5%;
+		--background-100: 294 61% 10%;
+		--background-200: 295 61% 20%;
+		--background-300: 295 61% 30%;
+		--background-400: 295 61% 40%;
+		--background-500: 295 61% 50%;
+		--background-600: 295 61% 60%;
+		--background-700: 295 61% 70%;
+		--background-800: 295 61% 80%;
+		--background-900: 294 61% 90%;
+		--background-950: 296 62% 95%;
+
+		--primary-50: 293 69% 5%;
+		--primary-100: 295 69% 10%;
+		--primary-200: 295 71% 20%;
+		--primary-300: 295 70% 30%;
+		--primary-400: 295 70% 40%;
+		--primary-500: 295 70% 50%;
+		--primary-600: 295 70% 60%;
+		--primary-700: 295 70% 70%;
+		--primary-800: 295 71% 80%;
+		--primary-900: 295 69% 90%;
+		--primary-950: 297 69% 95%;
+
+		--secondary-50: 294 84% 5%;
+		--secondary-100: 296 80% 10%;
+		--secondary-200: 295 82% 20%;
+		--secondary-300: 295 82% 30%;
+		--secondary-400: 295 82% 40%;
+		--secondary-500: 295 82% 50%;
+		--secondary-600: 295 82% 60%;
+		--secondary-700: 295 82% 70%;
+		--secondary-800: 295 82% 80%;
+		--secondary-900: 296 80% 90%;
+		--secondary-950: 294 84% 95%;
+
+		--accent-50: 141 54% 5%;
+		--accent-100: 145 57% 10%;
+		--accent-200: 144 57% 20%;
+		--accent-300: 144 56% 30%;
+		--accent-400: 144 56% 40%;
+		--accent-500: 144 56% 50%;
+		--accent-600: 144 56% 60%;
+		--accent-700: 144 56% 70%;
+		--accent-800: 144 57% 80%;
+		--accent-900: 145 57% 90%;
+		--accent-950: 146 54% 95%;
+	}
+}
