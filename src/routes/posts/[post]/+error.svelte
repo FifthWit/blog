@@ -2,6 +2,10 @@
 	import { page } from '$app/state';
 </script>
 
+<svelte:head>
+	<title>Error | Fifth</title>
+</svelte:head>
+
 {#if page.error}
 	<div class="flex h-screen w-full items-center justify-center">
 		<div class="text-center">
