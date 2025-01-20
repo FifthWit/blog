@@ -126,3 +126,7 @@
 		--accent-950: 146 54% 95%;
 	}
 }
+
+body {
+	@apply bg-background-50;
+}
