@@ -8,7 +8,7 @@
     let sidebarState = $state(data.sidebar);
 </script>
 
-<div class="h-screen w-48 border-r border-secondary-200 bg-background-50 p-2 flex flex-col *:my-2">
+<div class="h-screen w-48 border-r border-secondary-200 bg-background-50 p-2 flex flex-col *:my-2 fixed">
     <a href="/" class=" w-full text-primary-700 text-2xl font-bold text-center p-2 rounded-md">{import.meta.env.VITE_PUBLIC_NAME}</a>
     <Collapsible.Root>
         <div class="w-full flex flex-row justify-between text-xl items-center pl-2 font-semibold">
