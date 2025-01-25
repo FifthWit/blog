@@ -6,6 +6,23 @@ export default {
 
 	theme: {
 		extend: {
+            typography: {
+                DEFAULT: {
+                    css: {
+                        color: 'white',
+                        a: {
+                            color: 'hsl(var(--primary-500))',
+                            textDecoration: 'underline',
+                            '&:hover': {
+                                color: 'hsl(var(--primary-700))',
+                            },
+                        },
+                        h1: {
+                            color: 'hsl(var(--text-600))',
+                        },
+                    },
+                },
+            },
 			colors: {
 				text: {
 					50: 'hsl(var(--text-50))',

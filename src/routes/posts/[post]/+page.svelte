@@ -11,6 +11,6 @@
 	<title>{data.metadata.title}</title>
 </svelte:head>
 
-<div class="prose">
+<div class="prose w-full p-12">
 	{@html processedContent}
 </div>
