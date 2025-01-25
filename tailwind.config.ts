@@ -20,6 +20,12 @@ export default {
                         h1: {
                             color: 'hsl(var(--text-600))',
                         },
+                        h2: {
+                            color: 'hsl(var(--text-500))',
+                        },
+                        h3: {
+                            color: 'hsl(var(--text-400))',
+                        },
                     },
                 },
             },
