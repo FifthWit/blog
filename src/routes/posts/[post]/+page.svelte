@@ -1,4 +1,5 @@
 <script>
+    //ts-nocheck
 	let { data } = $props();
 	let processedContent = $state(data.content.replace(/\\n/g, '<br>'));
     // svelte 5 runes make me mad :(
