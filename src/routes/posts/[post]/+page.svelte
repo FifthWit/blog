@@ -1,6 +1,10 @@
 <script>
 	let { data } = $props();
-	const processedContent = data.content.replace(/\\n/g, '<br>');
+	let processedContent = $state(data.content.replace(/\\n/g, '<br>'));
+    // svelte 5 runes make me mad :(
+    $effect(() => {
+        processedContent = data.content.replace(/\\n/g, '<br>');
+    })
 </script>
 
 <svelte:head>

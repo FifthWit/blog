@@ -5,16 +5,16 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 
 export async function load({ params }) {
-	const { post } = params;
-	const filePath = path.resolve('src/posts', `${post}.svx`);
+    const { post } = params;
+    const filePath = path.resolve('blogs', `${post}.svx`);
 
-	if (!fs.existsSync(filePath)) {
-		throw error(404, 'Post Not Found :(');
-	}
+    if (!fs.existsSync(filePath)) {
+        throw error(404, 'Post Not Found :(');
+    }
 
-	const fileContent = fs.readFileSync(filePath, 'utf-8');
-	const { data: metadata, content } = matter(fileContent);
-	const html = marked(content);
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const { data: metadata, content } = matter(fileContent);
+    const html = marked(content);
 
-	return { content: html, metadata };
+    return { content: html, metadata };
 }
