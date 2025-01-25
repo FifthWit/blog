@@ -12,7 +12,7 @@
     <title>{data.metadata.title}</title>
 </svelte:head>
 
-<div class="flex flex-col justify-center items-center text-center w-full">
+<div class="flex flex-col justify-center items-center w-full">
     <div class="prose w-full p-12">
         {@html processedContent}
     </div>
